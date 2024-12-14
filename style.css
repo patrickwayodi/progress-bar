@@ -1,0 +1,74 @@
+/*
+Do not use <br> to create margins between paragraphs; wrap them in <p> elements and use
+the "CSS margin" property to control their size.
+ */
+
+
+#page-title {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#progress-bar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: orange;
+    width: 50%;
+}
+
+#progress-stats {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: green;
+    font-size: 2rem;
+}
+
+#progress-percentage {
+    float: left;
+    width: 10%;
+}
+
+#percentage-label {
+    float: left;
+    width: 90%;
+}
+
+#start-button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: green;
+    font-size: 2rem;
+}
+
+#reset-button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: orange;
+    font-size: 2rem;
+}
+
+#page-footer {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.ui-progressbar {
+    background: red;
+}
+
+.ui-progressbar-value {
+    background: green;
+}
+
